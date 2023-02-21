@@ -1,14 +1,13 @@
 
 # NETSCANNER
 
-This project was created as part of my final year undergraduate development project for my Bachelor of Science degree. 
+This project was created as part of my final year undergraduate development project for my Bachelor of Science degree.
 
-This program will conduct a comprehensive scan of the local network and surrounding wireless networks using basic OS utilities, Nmap and airodump-ng.
+This program will conduct a comprehensive scan of the local network and surrounding wireless networks using basic OS utilities, Network Mapper (Nmap) and airodump-ng.
 
 ## Demo
 
 Insert gif or link to demo
-
 
 ## Execution
 
@@ -20,7 +19,7 @@ The preferred method of running the program is installing the Python package fro
 ```
 
 ### Manually
-You can also run the module itself by downloading a ZIP file of this repository and running
+You can also run the module itself by downloading a ZIP file of this repository and executing the module in Python.
 
 ```bash
   python3 NetScanner
