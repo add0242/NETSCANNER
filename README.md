@@ -39,7 +39,7 @@ Then running the program:
 You can also run the module itself by downloading the NetScanner.py module and running it.
 
 ```bash
-  python3 __main__.py
+  python3 __main__.py <mode specification> <options>
 ```
 
 ## Modes and Options
