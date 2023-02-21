@@ -26,20 +26,20 @@ A monitor-mode capable wireless interface is also required if you wish to use th
 The preferred method of running the program is installing the Python package from PyPi directly.
 
 ```bash
-  pip install netscanner
+  pip install netscanner==0.0.8
 ```
 
 Then running the program:
 
 ```bash
-  python3 netscanner
+  python3 netscanner <mode specification> <options>
 ```
 
 ### Manually
 You can also run the module itself by downloading the NetScanner.py module and running it.
 
 ```bash
-  python3 NetScanner.py
+  python3 __main__.py
 ```
 
 ## Modes and Options
