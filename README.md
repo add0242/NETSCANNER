@@ -38,7 +38,7 @@ Then running the program:
 ```
 
 ### Manually
-You can also run the module itself by downloading the NetScanner.py module and running it.
+You can also run the module itself by downloading the __main__.py module and running it.
 
 ```bash
   python3 __main__.py <mode specification> <options>
