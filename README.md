@@ -58,17 +58,16 @@ You can also run the module itself by downloading the __main__.py module from th
 ```
 
 ### Avoiding sudo
-The program runs shell commands with sudo privileges in the background which will require you to provide your sudo password frequently.
+The program runs shell commands with sudo privileges in the background, which will require you to provide your sudo password frequently.
 
-To avoid this append this line to your `/etc/sudoers` file using `sudo visudo`
+To avoid this, append this line to your `/etc/sudoers` file using `sudo visudo`
 
 ```bash
 # NETSCANNER PACKAGE
 <USERNAME> ALL=(ALL) NOPASSWD: ALL
 ```
 
-This will allow you to run the module without being asked for your sudo password. This is wholly option and it is recommended that you comment this line when done using the program.
-
+This will allow you to run the module without being asked for your sudo password. This is wholly optional and it is recommended that you comment this line when done using the program.
 
 ## Modes and Options
 
