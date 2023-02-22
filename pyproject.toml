@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "netscanner"
-version = "0.0.20"
+version = "0.0.23"
 description = "A comprehensive network reconnaissance tool"
 authors = ["Adam Dawood <ADD0242@MY.LONDONMET.AC.UK>"]
 readme = "README.md"
