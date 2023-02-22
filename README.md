@@ -1,19 +1,34 @@
-
 # NETSCANNER
 
-This project was created as part of my final year undergraduate development project for my Bachelor of Science degree.
+This project is the product of my final year undergraduate development project for my Bachelor of Science degree in Computer Networking and Cyber Security at London Metropolitan University.
 
 This program will conduct a comprehensive scan of the local network and surrounding wireless networks using basic OS utilities, Nmap and airodump-ng.
 
+## Disclaimer
+
+This program is designed to conduct a rigorous and comprehensive scan of your local network by actively engaging network hosts using common host discovery and port scanning techniques to produce an extensive overview of the local network. This program is also designed to produce an overview of surrounding wireless networks by capturing 802.11 frames in the vicinity of the host interface. 
+
+This program is a network reconnaissance tool and when executing the module you are wholly responsible and liable for any physical, mental or financial damage, complications and consequences of all operations that you execute. It is strongly recommended that you execute this program on networks you are authorised to audit. Use at your own discretion and risk.
+
 ## Screenshots
 
+*MAC Addresses have been obscured.
+
+### Running in the terminal
 ![Screenshot 1](https://i.ibb.co/PDy14fL/Screenshot-from-2023-02-21-18-07-54-1.png)
 
 ![Screenshot 2](https://i.ibb.co/DfKzcfH/Screenshot-from-2023-02-21-18-08-02-1.png)
 
 ![Screenshot 3](https://i.ibb.co/Sm2X70F/Screenshot-from-2023-02-21-18-08-09-1.png)
 
-Please note: A terminal window width of above 130 columns is recommended for the output to display correctly.
+### Viewing the output file
+![Screenshot 4](https://i.ibb.co/Mp7HWJQ/Screenshot-from-2023-02-22-22-40-39-1.png)
+
+![Screenshot 5](https://i.ibb.co/Fg90thh/Screenshot-from-2023-02-22-22-40-56-1.png)
+
+![Screenshot 6](https://i.ibb.co/KDbbcSD/Screenshot-from-2023-02-22-22-41-15-1.png)
+
+![Screenshot 7](https://i.ibb.co/3y2SDwb/Screenshot-from-2023-02-22-22-41-29-1.png)
 
 ## Usage
 
@@ -110,3 +125,7 @@ This process determines the characteristics of remote wireless networks in the v
 The program will attempt to use airmon-ng to enable monitor mode on the interface. If this is is unsuccessful you will not see an error, the table for Remote WLAN data will simply be empty.
 
 This process has a default timeout period of 60 seconds which can be changed using the `--wP` flag.
+
+## FAQs
+#### The terminal output is unreadable, now what?
+Sometimes the output may be format incorrectly due to the size of the terminal window. You can access all output files in the `home/<username>/Documents/NetScanner` directory which is created when you run the program initally. All output files are in `.txt` format and are timestamped with the local date and time of the scan, and a tag indicating the mode of operation that was specified.
